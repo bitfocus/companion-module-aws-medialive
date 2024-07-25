@@ -1,6 +1,6 @@
 {
-	"name": "your-module-name",
-	"version": "0.1.0",
+	"name": "companion-module-aws-medialive",
+	"version": "1.0.0",
 	"main": "dist/main.js",
 	"type": "module",
 	"scripts": {
@@ -16,10 +16,12 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bitfocus/companion-module-your-module-name.git"
+		"url": "git+https://github.com/jorgen1040/companion-module-aws-medialive.git"
 	},
 	"dependencies": {
-		"@companion-module/base": "~1.7.0"
+		"@aws-sdk/client-medialive": "^3.616.0",
+		"@companion-module/base": "~1.7.0",
+		"set-interval-async": "^3.0.3"
 	},
 	"devDependencies": {
 		"@companion-module/tools": "^1.4.2",

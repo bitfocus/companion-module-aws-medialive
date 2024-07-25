@@ -1,16 +1,16 @@
 {
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
-	"description": "A short one line description of your module",
-	"version": "0.0.0",
+	"id": "aws-medialive",
+	"name": "aws-medialive",
+	"shortname": "medialive",
+	"description": "Module to allow starting, stopping and viewing status of your AWS MediaLive channels",
+	"version": "1.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
+	"repository": "git+https://github.com/jorgen1040/companion-module-aws-medialive.git",
+	"bugs": "https://github.com/jorgen1040/companion-module-aws-medialive/issues",
 	"maintainers": [
 		{
-			"name": "Your name",
-			"email": "Your email"
+			"name": "Jørgen Ringstad Møglestue",
+			"email": "jorgen@ringstad.dev"
 		}
 	],
 	"runtime": {
@@ -20,7 +20,7 @@
 		"entrypoint": "../dist/main.js"
 	},
 	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
-	"keywords": []
+	"manufacturer": "AWS",
+	"products": ["Elemental MediaLive"],
+	"keywords": ["aws", "medialive", "amazon web services"]
 }
