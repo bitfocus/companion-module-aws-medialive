@@ -23,10 +23,8 @@ export interface MediaLiveChannel {
 export class MediaLiveInstance extends InstanceBase<ModuleConfig> {
 	config!: ModuleConfig // Setup in init()
 	awsClient: MediaLiveClient = new MediaLiveClient()
-	// channels: MediaLiveChannel[] = [{ id: 'none', name: 'No channels available', state: 'IDLE' }]
 	channels: MediaLiveChannel[] = []
 	poll: SetIntervalAsyncTimer<[]> | null = null
-	// poll: AsyncIterable<void> | null = null
 
 	constructor(internal: unknown) {
 		super(internal)
