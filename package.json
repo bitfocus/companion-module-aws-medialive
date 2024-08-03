@@ -16,7 +16,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jorgen1040/companion-module-aws-medialive.git"
+		"url": "git+https://github.com/bitfocus/companion-module-aws-medialive.git"
 	},
 	"dependencies": {
 		"@aws-sdk/client-medialive": "^3.616.0",

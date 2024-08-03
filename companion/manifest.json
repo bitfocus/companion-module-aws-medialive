@@ -5,8 +5,8 @@
 	"description": "Module to allow starting, stopping and viewing status of your AWS MediaLive channels",
 	"version": "1.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/jorgen1040/companion-module-aws-medialive.git",
-	"bugs": "https://github.com/jorgen1040/companion-module-aws-medialive/issues",
+	"repository": "git+https://github.com/bitfocus/companion-module-aws-medialive.git",
+	"bugs": "https://github.com/bitfocus/companion-module-aws-medialive/issues",
 	"maintainers": [
 		{
 			"name": "Jørgen Ringstad Møglestue",

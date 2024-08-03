@@ -14,7 +14,7 @@ Then generate an Access Key for that user and fill out the config in Companion
 
 Also, remember to select the correct region, otherwise no channels will show up
 
-If any issue arises, please submit a [Github issue](https://github.com/Jorgen1040/companion-module-aws-medialive/issues)
+If any issue arises, please submit a [Github issue](https://github.com/bitfocus/companion-module-aws-medialive/issues)
 
 ## Actions
 
