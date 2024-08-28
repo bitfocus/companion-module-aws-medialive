@@ -20,7 +20,7 @@
 	},
 	"dependencies": {
 		"@aws-sdk/client-medialive": "^3.616.0",
-		"@companion-module/base": "~1.7.0",
+		"@companion-module/base": "~1.10.0",
 		"set-interval-async": "^3.0.3"
 	},
 	"devDependencies": {
