@@ -120,7 +120,11 @@ export class MediaLiveInstance extends InstanceBase<ModuleConfig> {
 			})
 			.catch((e) => {
 				this.log('error', `Failed to connect to AWS MediaLive: ${e}`)
-				this.updateStatus(InstanceStatus.ConnectionFailure)
+				if (e.name === 'UnrecognizedClientException') {
+					this.updateStatus(InstanceStatus.AuthenticationFailure)
+				} else {
+					this.updateStatus(InstanceStatus.ConnectionFailure)
+				}
 			})
 	}
 
