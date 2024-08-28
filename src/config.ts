@@ -61,7 +61,7 @@ export function GetConfigFields(): SomeCompanionConfigField[] {
 			id: 'awsId',
 			label: 'AWS Access Key ID',
 			width: 12,
-			//regex: Regex.IP,
+			regex: '/^AKIA[0-9A-Z]{16}$/',
 			required: true,
 		},
 		{
@@ -69,6 +69,7 @@ export function GetConfigFields(): SomeCompanionConfigField[] {
 			id: 'awsSecret',
 			label: 'AWS Access Key Secret',
 			width: 12,
+			regex: '/^[0-9a-zA-Z/+]{40}$/',
 			required: true,
 		},
 	]
