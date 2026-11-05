@@ -20,11 +20,11 @@
 	},
 	"dependencies": {
 		"@aws-sdk/client-medialive": "^3.616.0",
-		"@companion-module/base": "~1.10.0",
+		"@companion-module/base": "~1.15.1",
 		"set-interval-async": "^3.0.3"
 	},
 	"devDependencies": {
-		"@companion-module/tools": "^2.8.0",
+		"@companion-module/tools": "^2.9.1",
 		"husky": "^9.0.10",
 		"lint-staged": "^15.2.2",
 		"prettier": "^2.8.8",
